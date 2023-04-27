@@ -16,7 +16,7 @@ stages:
 # build stage: build site codebase to use for deployment
 - stage: Build_Codebase
   jobs:
-    - template: build/site-build-job.yml
+    - template: .build/site-build-job.yml
       parameters:
         name: build_live_site
         displayName: Live site (exclude drafts & future published content)
@@ -32,7 +32,7 @@ stages:
 - stage: Deploy_Codebase
   dependsOn: Build_Codebase
   jobs:
-    - template: build/site-deploy-job.yml
+    - template: .build/site-deploy-job.yml
       parameters:
         name: deploy_live_site
         displayName: Live site (exclude drafts & future published content)
