@@ -16,7 +16,7 @@ stages:
         displayName: Live site (exclude drafts & future published content)
         # always build on pushes to master
         condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
-        hugo_version: 0.57.2
+        hugo_version: 0.111.3
         hugo_config_baseUrl: $(LiveSiteBaseUrl)
         hugo_config_flags: '--minify'
         site_storage_account: $(LiveSiteAccount)
