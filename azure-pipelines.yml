@@ -2,13 +2,7 @@ trigger:
   branches:
     include:
       - '*'
-# schedules:
-# - cron: "3 12,15,17,22 * * Mon-Fri"
-#   displayName: Daily build of live site
-#   branches:
-#     include:
-#     - master
-#   always: true
+
 variables:
   - group: accom sites
 
