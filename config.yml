@@ -10,7 +10,7 @@ GoogleAnalytics: ""
 params:
   # Conference info
   Name: "DevOps Heroes"
-  Description: "Conferenze degli eroi!"
+  Description: "Conferenza per gli eroi del DevOps!"
   Date: "21 Ottobre"
   # Price: "Only $100" # If your event is free, just comment this line
   Venue: "Università degli Studi di Parma"
