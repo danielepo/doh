@@ -18,7 +18,7 @@ params:
   City:  "Parma, Italy"
   # State: "Quintana"
   Images: ["/img/badge.jpg"]
-  GoogleMapsKey: "AIzaSyCxybbJ9ioiZB2Iom7YAq-sVAxMw77BPLY"
+  GoogleMapsKey: ""
 
   # Active sections on the website to deactivate comment out with '#'
   # you can also change order here and it will reflect on page
