@@ -10,14 +10,24 @@ on:
       - main
 
 jobs:
+ 
   build_and_deploy_job:
     if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.action != 'closed')
     runs-on: ubuntu-latest
     name: Build and Deploy Job
     steps:
+
       - uses: actions/checkout@v3
         with:
           submodules: true
+          
+      - name: Replace google maps key
+        uses: MathieuSoysal/replace-string-in-file@v1.0.0
+        with:
+          file: config.yml
+          old-string: GMAPSKEY
+          new-string: ${{ secrets.GOOGLE_MAPS_KEY }}
+          
       - name: Build And Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
