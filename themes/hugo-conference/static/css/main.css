@@ -317,15 +317,17 @@ p {
    NAVIGATION
    ========================================================================== */
 nav {
-  padding: 15px 0;
+  padding: 13px 0;
   position: fixed;
   width: 100%;
   z-index: 10;
 }
 .nav-item {
   display: inline-block;
-  margin-right: 15px;
+  margin-right: 0px;
+  /* padding: 15px 15px; */
 }
+
 .nav-link {
   font-size: 1.4em;
 }
@@ -335,6 +337,9 @@ nav {
 .header {
   padding: 100px 0 100px;
   text-align: center;
+}
+#header-img{
+  width: 100%;
 }
 .logo-name {
   margin-bottom: 0;
@@ -701,24 +706,24 @@ h6 {
    NAVIGATION
    ========================================================================== */
 nav {
-  background: #2b2b2b;
+  background: #10727a;
 }
 .nav-link {
   color: #e7e7e7;
+  padding: 15px 15px;
 }
 .nav-link:active,
 .nav-link:hover,
 .nav-link:focus,
 .nav-link.current {
   color: #fff;
+  background-color: #41bbc2;
 }
 /* =============================================================================
    HEADER
    ========================================================================== */
-.header {
-  background-image: url('../img/parma-tansp.png');
-  
-  background-color: #2b2b2b;
+.header {  
+  background-color: #ffffff;
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: 100% auto;
@@ -741,11 +746,11 @@ nav {
   font-weight: normal;
 }
 .call-action-area .price {
-  color: #fddd52;
+  color: #e70f73;
 }
 .call-action-area .call-action-link,
 .btn {
-  background-color: #d1410c;
+  background-color: #e70f73;
   /* background-image: -moz-linear-gradient(top, #d1410c 30%, #f0a303 150%);
   background-image: -webkit-linear-gradient(top, #d1410c 30%, #f0a303 150%);
   filter: progid:dximagetransform.microsoft.gradient(startColorstr='#d1410c', endColorstr='#f0a303');
@@ -768,12 +773,12 @@ nav {
    CONTENT
    ========================================================================== */
 .content a {
-  color: #f0a303;
+  color: #e70f73;
 }
 .content a:hover,
 .content a:focus {
-  color: #fddd52;
-  text-decoration: underline;
+  color: #f16eab;
+  text-decoration: none;
 }
 /* =============================================================================
    ABOUT
