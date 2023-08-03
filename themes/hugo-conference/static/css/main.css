@@ -468,7 +468,15 @@ nav {
 .sponsor-item,
 .partner-item {
   display: inline-block;
-  margin: 0 30px 30px 0;
+  margin: 15px 15px 15px 15px;
+}
+.sponsor-premium-link{
+  display: block;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 200px;
 }
 .sponsor--link,
 .partner-link {
@@ -575,6 +583,11 @@ nav {
   .partner-item {
     margin: 0 5px 10px 0;
   }
+  .sponsor-premium-link{
+    width: 125px;
+    height: 125px;
+    line-height: 125px;
+  }
   .sponsor--link,
   .partner-link {
     width: 95px;
@@ -675,6 +688,11 @@ nav {
   .sponsor-item,
   .partner-item {
     margin: 0 12px 15px 0;
+  }
+  .sponsor-premium-link {
+    width: 130px;
+    height: 130px;
+    line-height: 115px;
   }
   .sponsor--link,
   .partner-link {
@@ -860,6 +878,18 @@ nav {
 /* =============================================================================
    SPONSORS
    ========================================================================== */
+.sponsors-list{
+  text-align: center;
+}
+.sponsor-premium-link{
+  background: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.15);
+}
+.sponsor-premium-link:hover,
+.sponsor-premium-link:focus{
+  border-color: #f0a303;
+}
 .sponsor--link,
 .partner-link {
   background: #fff;

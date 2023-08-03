@@ -50,9 +50,22 @@ params:
 
   # List of Sponsors
   Sponsors:
-    # - name: "Hugo"
-    #   logo: "/img/hugo.png"
-    #   url: "http://gohugo.io"
+    - name: "iSolutions"
+      logo: "/img/isolutions logo-header.png"
+      url: "https://www.isolutions.it/"
+      level: Basic
+    - name: "Lucient"
+      logo: ""
+      url: ""
+      level: Basic
+    - name: "InnProjekt"
+      logo: "/img/logo-innprojekt-2021.png"
+      url: "http://logo-innprojekt-2021.png"
+      level: Premium
+    - name: "Pergemine"
+      logo: "/img/pergemine-logo.png"
+      url: "http://www.pergemine.it/"
+      level: Premium
 
   # List of Partners
   # Partners:
