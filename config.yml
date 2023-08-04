@@ -55,7 +55,7 @@ params:
       url: "https://www.isolutions.it/"
       level: Basic
     - name: "Lucient"
-      logo: "lucient-logo.jpg"
+      logo: "/img/lucient-logo.jpg"
       url: "https://lucient.com/it/"
       level: Basic
     - name: "InnProjekt"
