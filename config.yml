@@ -60,7 +60,7 @@ params:
       level: Basic
     - name: "InnProjekt"
       logo: "/img/logo-innprojekt-2021.png"
-      url: "http://logo-innprojekt-2021.png"
+      url: "https://innprojekt.com/"
       level: Premium
     - name: "Pergemine"
       logo: "/img/pergemine-logo.png"
