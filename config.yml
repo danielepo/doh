@@ -35,7 +35,7 @@ params:
   Titles:
     about: "About"
     location: "Location"
-    speakers: "Speakers"
+    # speakers: "Speakers"
     schedule: "Schedule"
     sponsors: "Sponsors"
     # partners: "Partners"
@@ -77,6 +77,7 @@ params:
   #     url: "http://braziljs.org"
 
   # The entire schedule
+  sessionizeSchedule: "8h6u3gcs"
   Schedule:
     # - name: "Check-in / Breakfast"
     #   time: "9h00"

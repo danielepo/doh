@@ -11,13 +11,12 @@
         <img class="photo" src="{{ . }}" alt="{{ $speaker.name }}" itemprop="image">
       </span>
     {{ end }}
-<!-- 
     <h3 class="speech-title">
       {{ with .presentation.time }}
       <span class="speech-time">{{ . }}</span>
       {{ end }}
       <span>{{ .presentation.title }}</span>
-    </h3> -->
+    </h3> 
 
     <h3 class="speakers-name">{{ .name }}
       {{ with .link }}
@@ -28,6 +27,4 @@
   </li>
 {{ end }}
 </ul>
-{{ else }}
-  <p>Comming soon...</p>
 {{ end }}

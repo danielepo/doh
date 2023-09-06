@@ -1,5 +1,7 @@
 <h2 class="section-title">{{ .titles.schedule }}</h2>
-
+{{ with .sessionizeSchedule }}
+<script type="text/javascript" src="https://sessionize.com/api/v2/{{ . }}/view/GridSmart"></script>
+{{ end }}
 {{ with .schedule }}
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
@@ -40,7 +42,4 @@ tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
     </tbody>
   </table>
 </div>
-
-{{ else }}
-  <p>Comming soon...</p>
 {{ end }}
